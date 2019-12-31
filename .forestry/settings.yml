@@ -5,28 +5,13 @@ admin_path: ''
 webhook_url: 
 sections:
 - type: heading
-  label: Content
-- type: document
-  path: content/about/info.md
-  label: Info Page
-- type: directory
-  path: content/blog-posts
-  label: Blog posts
-  create: all
-  match: "**/*"
-  templates:
-  - blog
-- type: document
-  path: content/data/authors.yaml
-  label: Authors List
+  label: Découvrir la volitge
 - type: heading
-  label: Config
-- type: document
-  path: themes/tale-theme/data/Settings.toml
-  label: Design Settings
-- type: document
-  path: config.toml
-  label: Site Config
+  label: Vols de mise en garde
+- type: heading
+  label: Apprendre la voltige
+- type: heading
+  label: Compétition
 upload_dir: static/images
 public_path: "/images"
 front_matter_path: ''

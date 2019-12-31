@@ -17,5 +17,3 @@ fields:
     required: false
     color_format: Hex
   description: Enter text color for info page
-pages:
-- themes/tale-theme/data/Settings.toml

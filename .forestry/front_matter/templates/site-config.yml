@@ -19,5 +19,3 @@ fields:
   name: theme
   label: theme
   hidden: true
-pages:
-- config.toml
